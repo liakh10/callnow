@@ -84,8 +84,8 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .lower .cap.off{opacity:0}
 
 /* burst + price */
-.burst{position:absolute;right:var(--pad);bottom:calc(var(--pad) + 70px);z-index:6;width:clamp(120px,18vw,190px);aspect-ratio:1;display:grid;place-items:center;text-align:center;color:var(--ink);pointer-events:none;
-  background:var(--gold);clip-path:polygon(50% 0,61% 12%,76% 6%,80% 21%,96% 22%,91% 37%,100% 50%,91% 63%,96% 78%,80% 79%,76% 94%,61% 88%,50% 100%,39% 88%,24% 94%,20% 79%,4% 78%,9% 63%,0 50%,9% 37%,4% 22%,20% 21%,24% 6%,39% 12%);animation:pulse 1.6s ease-in-out infinite;filter:drop-shadow(4px 6px 0 var(--red-d))}
+.burst{position:absolute;right:var(--pad);bottom:calc(var(--pad) + 70px);z-index:6;width:clamp(120px,18vw,190px);aspect-ratio:1;display:grid;place-items:center;text-align:center;color:var(--ink);pointer-events:none;padding-right:5px;padding-bottom:7px;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 106 108'%3E%3Cpolygon points='50,0 61,12 76,6 80,21 96,22 91,37 100,50 91,63 96,78 80,79 76,94 61,88 50,100 39,88 24,94 20,79 4,78 9,63 0,50 9,37 4,22 20,21 24,6 39,12' fill='%239c1b17' transform='translate(5,7)'/%3E%3Cpolygon points='50,0 61,12 76,6 80,21 96,22 91,37 100,50 91,63 96,78 80,79 76,94 61,88 50,100 39,88 24,94 20,79 4,78 9,63 0,50 9,37 4,22 20,21 24,6 39,12' fill='%23f7c948'/%3E%3C/svg%3E") center/contain no-repeat;animation:pulse 1.6s ease-in-out infinite}
 @keyframes pulse{0%,100%{transform:rotate(-8deg) scale(1)}50%{transform:rotate(-6deg) scale(1.06)}}
 .burst small{display:block;font-size:clamp(10px,1.2vw,13px);letter-spacing:.1em}
 .burst b{display:block;font-size:clamp(30px,4.6vw,52px);line-height:.95;color:var(--red)}
